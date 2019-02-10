@@ -6,7 +6,7 @@ package uk.bl.wa.analyser.payload;
  * $Id:$
  * $HeadURL:$
  * %%
- * Copyright (C) 2013 - 2018 The webarchive-discovery project contributors
+ * Copyright (C) 2013 - 2019 The webarchive-discovery project contributors
  * %%
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as
@@ -132,13 +132,13 @@ mime_exclude = x-tar,x-gzip,bz,lz,compress,zip,javascript,css,octet-stream,image
         this.max_text_length = conf.getBytes( "warc.index.tika.max_text_length").intValue(); 
         log.info("Config: Maximum length of text to extract (characters) "+ this.max_text_length);
         
-        this.extractAllMetadata = conf
-                .getBoolean("warc.index.tika.extract_all_metadata");
-        log.info("Config: extractAllMetadata "+this.extractAllMetadata);
-
-        this.extractExifLocation = conf
-                .getBoolean("warc.index.tika.extract_exif_location");
-        log.info("Config: extractExifLocation " + this.extractExifLocation);
+//        this.extractAllMetadata = conf
+//                .getBoolean("warc.index.tika.extract_all_metadata");
+//        log.info("Config: extractAllMetadata "+this.extractAllMetadata);
+//
+//        this.extractExifLocation = conf
+//                .getBoolean("warc.index.tika.extract_exif_location");
+//        log.info("Config: extractExifLocation " + this.extractExifLocation);
 
         this.useBoilerpipe = conf.getBoolean("warc.index.tika.use_boilerpipe");
         log.info("Config: useBoilerpipe " + this.useBoilerpipe);
