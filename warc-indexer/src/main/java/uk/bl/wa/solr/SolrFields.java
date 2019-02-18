@@ -6,7 +6,7 @@ package uk.bl.wa.solr;
  * $Id:$
  * $HeadURL:$
  * %%
- * Copyright (C) 2013 - 2018 The webarchive-discovery project contributors
+ * Copyright (C) 2013 - 2019 The webarchive-discovery project contributors
  * %%
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as
@@ -152,4 +152,12 @@ public interface SolrFields {
     public static final String INSTITUTION = "institution";
     public static final String COLLECTION = "collection";
     public static final String COLLECTION_ID = "collection_id";
+    
+    
+    public static final String TEAMH_CATEGORIES = "teamh_categories";
+    public static final String TEAMH_SUBCATEGORIES = "teamh_subcategories";
+    public static final String TEAMH_PROFESSION = "teamh_profession";
+    public static final String TEAMH_AGEGROUP = "teamh_age_group";
+    public static final String TEAMH_GENDER = "teamh_gender";
+    public static final String TEAMH_COUNTRY = "teamh_country";
 }
