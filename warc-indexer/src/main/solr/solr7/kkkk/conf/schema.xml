@@ -55,7 +55,7 @@
         <field name="teamh_age_group" type="string" indexed="true" docValues="true" multiValued="true"/>
         <field name="teamh_gender" type="string" indexed="true" docValues="true" multiValued="true"/>
         <field name="teamh_country" type="string" indexed="true" docValues="true" multiValued="true"/>
-
+	<field name="teamh_skilllevel" type="string" indexed="true" docValues="true" multiValued="true"/>
 
 
         <!-- Does not seem to be used as of 20180501 -->

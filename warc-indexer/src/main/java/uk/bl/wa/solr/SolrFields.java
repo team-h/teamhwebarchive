@@ -160,4 +160,5 @@ public interface SolrFields {
     public static final String TEAMH_AGEGROUP = "teamh_age_group";
     public static final String TEAMH_GENDER = "teamh_gender";
     public static final String TEAMH_COUNTRY = "teamh_country";
+    public static final String TEAMH_SKILLLEVEL = "teamh_skilllevel";
 }

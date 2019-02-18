@@ -41,6 +41,8 @@ public class TeamhCategories {
 	private String[] teamhGender;
 
 	private String[] teamhAgeGroup;
+	
+	private String[] teamhSkillLevel;
 
 	public String getWebsite() {
 		return website;
@@ -96,6 +98,14 @@ public class TeamhCategories {
 
 	public void setTeamhAgeGroup(String[] teamhAgeGroup) {
 		this.teamhAgeGroup = teamhAgeGroup;
+	}
+
+	public String[] getTeamhSkillLevel() {
+		return teamhSkillLevel;
+	}
+
+	public void setTeamhSkillLevel(String[] teamhSkillLevel) {
+		this.teamhSkillLevel = teamhSkillLevel;
 	}
 
 }

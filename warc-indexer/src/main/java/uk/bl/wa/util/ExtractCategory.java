@@ -113,6 +113,8 @@ public class ExtractCategory {
 							teamhCategory.setTeamhGender(cellValue.split(","));
 						} else if (cell.getColumnIndex() == 6) {
 							teamhCategory.setTeamhAgeGroup(cellValue.split(","));
+						} else if (cell.getColumnIndex() == 7) {
+							teamhCategory.setTeamhSkillLevel(cellValue.split(","));
 						}
 					});
 //					System.out.println(

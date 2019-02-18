@@ -333,6 +333,7 @@ public class WARCIndexer {
 				addSolrValues(solr, SolrFields.TEAMH_PROFESSION, teamhcategory.getTeamhpProfession());
 				addSolrValues(solr, SolrFields.TEAMH_GENDER, teamhcategory.getTeamhGender());
 				addSolrValues(solr, SolrFields.TEAMH_COUNTRY, teamhcategory.getTeamhLocation());
+				addSolrValues(solr, SolrFields.TEAMH_SKILLLEVEL, teamhcategory.getTeamhSkillLevel());
 
 			} else {
 				// else we're processing ARCs so nothing to filter and no
